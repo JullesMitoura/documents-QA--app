@@ -23,4 +23,4 @@ USER app
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
-CMD ["uvicorn", "src.app:app", "--host", "0.0.0.0", "--port", "80", "--log-level", "warning"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "80", "--log-level", "warning"]
